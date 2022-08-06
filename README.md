@@ -8,11 +8,8 @@ Similar to many other online social platforms, we are always looking for new way
 
 _**Why Gaming?**_<br>
 - **Video Gaming Industry**: ~$178.73 Billion in 2021 (increase of 14.4% from 2020) ([*source*](https://www.wepc.com/news/video-game-statistics/))
-
 - **Global eSports market**: ~$1.08 Billion in 2021 (increase of ~50% from 2020) ([*source*](https://www.statista.com/statistics/490522/global-esports-market-revenue/))
-
 - **eSports industry's global market revenue**: Forecasted to grow to as much as $1.62 Billion in 2024. 
-
 - China alone accounts for almost 1/5 of this market. 
 
 In recent months, we started a pilot program with a subset of our most active users by availing them to a new beta forum that has sparked many discussions amongst our gaming users.
@@ -100,8 +97,7 @@ We repeated the visualisation for the 25 most frequent pair of words (2 ngram) i
    using these 2 vectorizers:
     - Count vectorizer
     - TF-IDF vectorizer
-<BR>
-<BR>    
+
 2. For each model, we will also determine the following:
     - Optimal Grid Search Model Parameters
     - Optimal Grid Search Best Score
@@ -117,8 +113,7 @@ We repeated the visualisation for the 25 most frequent pair of words (2 ngram) i
    and chart the following:
     - Confusion Matrix
     - Receiver Operating Characteristic (ROC) Curve
-<BR>
-<BR>    
+
 3. We will also display the top 10 predictors of each model.
     
 4. Finally, we will summarise model performance, analyse and determine the most appropriate model for this dataset to address the problem statement. 
