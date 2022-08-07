@@ -75,11 +75,15 @@ We performed the following steps for data cleaning, preprocessing and visualisat
 
 After data cleaning is completed, we visualised the 25 most frequent words (1 ngram) in the posts for both subreddits.
 
-![Top 25 Most Frequent Words (1 ngram)](media/Top_25_Most_Frequent_Words_(1_ngram).png)
+![Top 25 Count Vectorization (1 ngram)](media/Top_25_Count_Vectorization_(1_ngram).png)
+
+![Top 25 TF-IDF Vectorization (1 ngram)](media/Top_25_TF-IDF_Vectorization_(1_ngram).png)
 
 We repeated the visualisation for the 25 most frequent pair of words (2 ngram) in the posts from both subreddits.
 
-![Top 25 Most Frequent Words (2 ngram)](media/Top_25_Most_Frequent_Words_(2_ngram).png)
+![Top 25 Count Vectorization (2 ngram)](media/Top_25_Count_Vectorization_(2_ngram).png)
+
+![Top 25 TF-IDF Vectorization (2 ngram)](media/Top_25_TF-IDF_Vectorization_(2_ngram).png)
 
 - Many of the words in the 1 ngram most frequent words list also appeared in the 2 ngram visualisation.
 - Generally, 2 ngram results provide greater details on the context of the highest frequency words in each subreddit than 1 ngram.
@@ -102,9 +106,9 @@ We repeated the visualisation for the 25 most frequent pair of words (2 ngram) i
     - Optimal Grid Search Model Parameters
     - Optimal Grid Search Best Score
     - Train AUC Score
-    - Test AUC SCore
+    - Validation AUC SCore
     - Train Accuracy Score
-    - Test Accuracy Sore
+    - Validation Accuracy Sore
     - F1-Score
     - Precision
     - Recall or Sensitivcity
